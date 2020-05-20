@@ -1,0 +1,2441 @@
+<sdf version='1.5'>
+    <!-- Draw Circle -->
+    <model name='Jussieu_World'>
+      <static>1</static>
+      <link name='jussieu'>
+
+	<collision name='zamanski'>
+          <pose>-14 0 0 0 0 45</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/zamanski/zamanski.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='zamanski'>
+          <pose>-14 0 0 0 0 45</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/zamanski/zamanski.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+
+
+
+	<collision name='barriere_H1'>
+          <pose>-31 -10 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H1'>
+          <pose>-31 -10 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H3'>
+          <pose>-31 -18 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H3'>
+          <pose>-31 -18 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H4'>
+          <pose>-31 -26 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H4'>
+          <pose>-31 -26 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H5'>
+          <pose>-31 -34 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H5'>
+          <pose>-31 -34 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H6'>
+          <pose>-31 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H6'>
+          <pose>-31 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V7'>
+          <pose>-27 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V7'>
+          <pose>-27 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V8'>
+          <pose>-19 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V8'>
+          <pose>-19 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V9'>
+          <pose>-11 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V9'>
+          <pose>-11 -46 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H10'>
+          <pose>-7 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H10'>
+          <pose>-7 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H11'>
+          <pose>-7 -35 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H11'>
+          <pose>-7 -35 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V12'>
+          <pose>-3 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V12'>
+          <pose>-3 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V13'>
+          <pose>5 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V13'>
+          <pose>5 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V14'>
+          <pose>13 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V14'>
+          <pose>13 -31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H15'>
+          <pose>17 -27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H15'>
+          <pose>17 -27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H16'>
+          <pose>17 -21 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H16'>
+          <pose>17 -21 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V17'>
+          <pose>21 -17 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V17'>
+          <pose>21 -17 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V18'>
+          <pose>26 -17 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V18'>
+          <pose>26 -17 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H19'>
+          <pose>30 -13 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H19'>
+          <pose>30 -13 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H20'>
+          <pose>30 -5 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H20'>
+          <pose>30 -5 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H21'>
+          <pose>30 3 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H21'>
+          <pose>30 3 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H22'>
+          <pose>30 11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H22'>
+          <pose>30 11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H23'>
+          <pose>30 19 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H23'>
+          <pose>30 19 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H24'>
+          <pose>30 27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H24'>
+          <pose>30 27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+	<collision name='barriere_V25'>
+          <pose>26 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V25'>
+          <pose>26 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V26'>
+          <pose>18 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V26'>
+          <pose>18 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V27'>
+          <pose>10 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V27'>
+          <pose>10 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V28'>
+          <pose>2 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V28'>
+          <pose>2 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V29'>
+          <pose>-6 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V29'>
+          <pose>-6 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V30'>
+          <pose>-14 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V30'>
+          <pose>-14 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V31'>
+          <pose>-22 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V31'>
+          <pose>-22 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_V32'>
+          <pose>-27 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_V32'>
+          <pose>-27 31 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_V/barrieres_V.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+	<collision name='barriere_H33'>
+          <pose>-31 18 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H33'>
+          <pose>-31 18 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H34'>
+          <pose>-31 26 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H34'>
+          <pose>-31 26 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_H35'>
+          <pose>-31 27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H35'>
+          <pose>-31 27 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+	<collision name='barriere_H36'>
+          <pose>-31 10 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_H36'>
+          <pose>-31 10 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_H/barrieres_H.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+
+
+
+	<collision name='barriere_carre1'>
+          <pose>-16.8 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre1'>
+          <pose>-16.8 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+	<collision name='barriere_carre2'>
+          <pose>-16.8 -39.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre2'>
+          <pose>-16.8 -39.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre3'>
+          <pose>-2.6 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre3'>
+          <pose>-2.6 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre4'>
+          <pose>11.6 -11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre4'>
+          <pose>11.6 -11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre5'>
+          <pose>11.6 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre5'>
+          <pose>11.6 -25.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre6'>
+          <pose>25.8 -11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre6'>
+          <pose>25.8 -11 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre7'>
+          <pose>25.8 3.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre7'>
+          <pose>25.8 3.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre8'>
+          <pose>11.6 3.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre8'>
+          <pose>11.6 3.2 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre9'>
+          <pose>25.8 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre9'>
+          <pose>25.8 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre10'>
+          <pose>11.6 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre10'>
+          <pose>11.6 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre11'>
+          <pose>-2.6 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre11'>
+          <pose>-2.6 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='barriere_carre12'>
+          <pose>-16.8 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='barriere_carre12'>
+          <pose>-16.8 17.4 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/barrieres_carre/barrieres_carre.dae</uri>
+              <scale>0.35 0.35 0.35</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+
+
+
+
+
+
+	<collision name='tour46'>
+          <pose>-28 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour46/tour46.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour46'>
+          <pose>-28 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour46/tour46.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour56'>
+          <pose>-28 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour56/tour56.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour56'>
+          <pose>-28 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour56/tour56.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour66'>
+          <pose>-28 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour66/tour66.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour66'>
+          <pose>-28 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour66/tour66.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour65'>
+          <pose>-14 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour65/tour65.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour65'>
+          <pose>-14 -42 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour65/tour65.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour55'>
+          <pose>-14 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour55/tour55.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour55'>
+          <pose>-14 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour55/tour55.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+	
+	<collision name='tour45'>
+          <pose>-14 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour45/tour45.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour45'>
+          <pose>-14 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour45/tour45.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour44'>
+          <pose>0 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour44/tour44.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour44'>
+          <pose>0 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour44/tour44.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour34'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour34/tour34.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour34'>
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour34/tour34.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour33'>
+          <pose>14 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour33/tour33.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour33'>
+          <pose>14 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour33/tour33.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour32'>
+          <pose>28 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour32/tour32.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour32'>
+          <pose>28 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour32/tour32.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+	<collision name='tour54'>
+          <pose>0 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour54/tour54.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour54'>
+          <pose>0 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour54/tour54.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour53'>
+          <pose>14 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour53/tour53.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour53'>
+          <pose>14 -28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour53/tour53.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour43'>
+          <pose>14 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour43/tour43.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour43'>
+          <pose>14 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour43/tour43.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour42'>
+          <pose>28 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour42/tour42.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour42'>
+          <pose>28 -14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour42/tour42.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour32'>
+          <pose>28 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour32/tour32.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour32'>
+          <pose>28 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour32/tour32.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour22'>
+          <pose>28 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour22/tour22.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour22'>
+          <pose>28 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour22/tour22.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour23'>
+          <pose>14 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour23/tour23.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour23'>
+          <pose>14 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour23/tour23.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour24'>
+          <pose>0 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour24/tour24.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour24'>
+          <pose>0 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour24/tour24.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour25'>
+          <pose>-14 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour25/tour25.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour25'>
+          <pose>-14 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour25/tour25.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour26'>
+          <pose>-28 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour26/tour26.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour26'>
+          <pose>-28 14 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour26/tour26.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour16'>
+          <pose>-28 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour16/tour16.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour16'>
+          <pose>-28 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour16/tour16.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour15'>
+          <pose>-14 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour15/tour15.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour15'>
+          <pose>-14 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour15/tour15.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour14'>
+          <pose>0 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour14/tour14.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour14'>
+          <pose>0 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour14/tour14.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour13'>
+          <pose>14 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour13/tour13.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour13'>
+          <pose>14 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour13/tour13.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+	<collision name='tour12'>
+          <pose>28 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour12/tour12.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <bounce/>
+            <friction>
+              <ode/>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+          </surface>
+        </collision>
+        <visual name='tour12'>
+          <pose>28 28 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://turtlebot3_jussieu/meshes/tour12/tour12.dae</uri>
+              <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+            </script>
+          </material>
+        </visual>
+
+
+ 
+        
+    </link>
+  </model>
+</sdf>
