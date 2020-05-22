@@ -10,6 +10,8 @@ from cv_bridge import CvBridge, CvBridgeError
 message = yolo_msg()
 scale = 0.00392
 
+global prediction_ready
+
 # Instantiate CvBridge
 bridge = CvBridge()
 
@@ -122,6 +124,8 @@ def callback(data) :
             message.w.append(round(box[2]))
             message.h.append(round(box[3]))
             message.classes.append(class_ids[i])
+        global prediction_ready
+        prediction_ready = True
             #draw_bounding_box(image, class_ids[i], confidences[i], round(x), round(y), round(x+w), round(y+h))
 
          # save output image to disk
@@ -132,13 +136,17 @@ def callback(data) :
 
 
 def node_yoloV3() :
+    global prediction_ready
+    prediction_ready = False
     rospy.init_node('node_yoloV3', anonymous=True)
     rospy.Subscriber('/camera/rgb/image_raw', Image, callback)
     pub = rospy.Publisher('topic_sortie_yoloV3', yolo_msg, queue_size=10)
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
-        rospy.loginfo(message)
-        pub.publish(message)
+        if prediction_ready :
+            rospy.loginfo(message)
+            pub.publish(message)
+            prediction_ready = False
         rate.sleep()
     rospy.spin()
 
